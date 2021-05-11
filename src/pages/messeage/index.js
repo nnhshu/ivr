@@ -298,7 +298,20 @@ const Messeage = () => {
                             htmlFor="example-week-input"
                             className="col-form-label"
                         >
-                            Schedules name
+                            File name
+                        </label>
+                        <input
+                            className="form-control"
+                            type="text"
+                            id="example-week-input"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label
+                            htmlFor="example-week-input"
+                            className="col-form-label"
+                        >
+                            Duration
                         </label>
                         <input
                             className="form-control"
@@ -365,12 +378,25 @@ const Messeage = () => {
                     </button>
                 </div>
                 <div className="modal-body">
+                <div className="form-group">
+                        <label
+                            htmlFor="example-week-input"
+                            className="col-form-label"
+                        >
+                            File name
+                        </label>
+                        <input
+                            className="form-control"
+                            type="text"
+                            id="example-week-input"
+                        />
+                    </div>
                     <div className="form-group">
                         <label
                             htmlFor="example-week-input"
                             className="col-form-label"
                         >
-                            Schedules name
+                            Duration
                         </label>
                         <input
                             className="form-control"

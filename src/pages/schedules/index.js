@@ -252,7 +252,7 @@ const Schedules = () => {
                 <div className="modal-body">
                     <div className="form-group">
                         <label
-                            htmlFor="example-week-input"
+                            htmlFor="schedules-input"
                             className="col-form-label"
                         >
                             Schedules name
@@ -260,12 +260,12 @@ const Schedules = () => {
                         <input
                             className="form-control"
                             type="text"
-                            id="example-week-input"
+                            id="schedules-input"
                         />
                     </div>
                     <div className="form-group">
                         <label
-                            htmlFor="example-week-input"
+                            htmlFor="description-input"
                             className="col-form-label"
                         >
                             Description
@@ -273,18 +273,20 @@ const Schedules = () => {
                         <input
                             className="form-control"
                             type="text"
-                            id="example-week-input"
+                            id="description-input"
                         />
                     </div>
                 </div>
                 <div className="modal-footer">
                     <button
-                        type="button"
-                        onClick={() => {
-                            tog_standard()
-                        }}
+                        
                         className="btn btn-secondary waves-effect"
                         data-dismiss="modal"
+                        type="button"
+                        onClick={() => {
+                            setmodal_standard(false)
+                        }}
+                        aria-label="Close"
                     >
                         Close
                     </button>
@@ -353,7 +355,7 @@ const Schedules = () => {
                     <button
                         type="button"
                         onClick={() => {
-                            tog_standard()
+                            setmodal_update(false)
                         }}
                         className="btn btn-secondary waves-effect"
                         data-dismiss="modal"

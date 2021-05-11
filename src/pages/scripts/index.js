@@ -351,7 +351,7 @@ const Scripts = () => {
                             htmlFor="example-week-input"
                             className="col-form-label"
                         >
-                            Schedules name
+                            Name
                         </label>
                         <input
                             className="form-control"
@@ -423,7 +423,7 @@ const Scripts = () => {
                             htmlFor="example-week-input"
                             className="col-form-label"
                         >
-                            Schedules name
+                            Name
                         </label>
                         <input
                             className="form-control"

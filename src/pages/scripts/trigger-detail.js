@@ -233,7 +233,7 @@ const TriggerDetail = () => {
                             htmlFor="example-week-input"
                             className="col-form-label"
                         >
-                            Schedules name
+                            Schedule
                         </label>
                         <input
                             className="form-control"
@@ -246,7 +246,20 @@ const TriggerDetail = () => {
                             htmlFor="example-week-input"
                             className="col-form-label"
                         >
-                            Description
+                            Calling number	
+                        </label>
+                        <input
+                            className="form-control"
+                            type="text"
+                            id="example-week-input"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label
+                            htmlFor="example-week-input"
+                            className="col-form-label"
+                        >
+                            Called number		
                         </label>
                         <input
                             className="form-control"
@@ -300,12 +313,12 @@ const TriggerDetail = () => {
                     </button>
                 </div>
                 <div className="modal-body">
-                    <div className="form-group">
+                <div className="form-group">
                         <label
                             htmlFor="example-week-input"
                             className="col-form-label"
                         >
-                            Schedules name
+                            Schedule
                         </label>
                         <input
                             className="form-control"
@@ -318,7 +331,20 @@ const TriggerDetail = () => {
                             htmlFor="example-week-input"
                             className="col-form-label"
                         >
-                            Description
+                            Calling number	
+                        </label>
+                        <input
+                            className="form-control"
+                            type="text"
+                            id="example-week-input"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label
+                            htmlFor="example-week-input"
+                            className="col-form-label"
+                        >
+                            Called number		
                         </label>
                         <input
                             className="form-control"
@@ -331,7 +357,7 @@ const TriggerDetail = () => {
                     <button
                         type="button"
                         onClick={() => {
-                            tog_standard()
+                            setmodal_update(false)
                         }}
                         className="btn btn-secondary waves-effect"
                         data-dismiss="modal"
